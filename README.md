@@ -6,7 +6,7 @@
 4. [V0.4 dalis](https://github.com/evmon6463/Projektas/releases/tag/v0.4)
 5. [V0.5 dalis](https://github.com/evmon6463/Projektas/releases/tag/v0.5)
 6. [V1.0 dalis](https://github.com/evmon6463/Projektas/releases/tag/v1.0)
-7. [V1.1 dalis](https://github.com/evmon6463/Projektas2/releases/tag/v1.1)
+7. [V1.1 dalis](https://github.com/evmon6463/Projektas2/releases/tag/V1.1)
 8. [V1.2 dalis](https://github.com/evmon6463/Projektas2/releases/tag/v1.2)
 
 Apžvelkime programos veikimą.
