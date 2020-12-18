@@ -72,6 +72,19 @@ Programa skaičiuoja kiek laiko trunka failo dalinimas į tuos, kurių galutinis
 |O2|	0.0289502|	0.3957|
 |O3|	0.0289242|	0.332116|
 
+Visų strategijų pilnas veikimo laikas
+
+| |1 strategija vektorius	|1 strategija listas	|2 strategija vektorius|	2 strategija listas|
+|-----------------------|---------------------|------------------------|-------------------------|
+|Klasės 1000 dydžio failas|	0.0677111|	0.063371|	0.0619805|	0.0575929|
+|Stuktūros 1000 dydžio failas|	0.0407559|	0.0397059|	0.0460455|	0.0466322|
+|Klasės 10000 dydžio failas|	0.434336|	0.378964|	0.439298|	0.364125|
+|Stuktūros 10000 dydžio failas|0.151245|	0.1528|	0.174277|	0.163597|
+|Klasės 100000 dydžio failas|	4.05024|	3.91734|	4.45117|	4.04413|
+|Stuktūros 100000 dydžio failas|	1.42766|	1.30501|	1.38399|	1.29354|
+|Klasės 1000000 dydžio failas|	40.8151|	35.4217|	44.9844|	40.031|
+|Stuktūros 1000000 dydžio failas|	21.5917|	22.1015|	22.0684|	15.8016|
+
 # v1.2
 
 Sukurtas priskyrimo operatorius operator<< pagal "Rule of three" taisyklę jis turi:
