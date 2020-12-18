@@ -12,8 +12,6 @@ using std::cout;
 using std::endl;
 using std::cin;
 
-Studentas::Studentas() {
-}
 int main() {
     char atsakymas;
     string line;
@@ -21,7 +19,7 @@ int main() {
          << "Jeigu norite ivesti patys I, Sukurti faila S,"
             " Nuskaityti is failo N" << endl;
     bool ar = true;
-    Studentas studentas;
+    Studentas studentas(" ", " ", 0, 0, {0, 0, 0}, 0);
     while(ar) {
         cin >> atsakymas;
         switch (atsakymas) {
@@ -37,7 +35,7 @@ int main() {
                 studentai.reserve(10000010);
                 ofstream output;
                 output.clear();
-                Studentas studentas;
+                Studentas studentas(" ", " ", 0, 0, {0, 0, 0}, 0);
                 pazymiu_kiekis = sugeneruotu_pazymiu_kiekis();
                 for (int kelintas_failas = 1; kelintas_failas < 5; kelintas_failas++){
                     studentai = generuojami_studentai_faile(failo_dydis, pazymiu_kiekis, studentas);
