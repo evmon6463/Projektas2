@@ -75,7 +75,7 @@ Programa skaičiuoja kiek laiko trunka failo dalinimas į tuos, kurių galutinis
 Visų strategijų pilnas veikimo laikas
 
 | |1 strategija vektorius	|1 strategija listas	|2 strategija vektorius|	2 strategija listas|
-|-----------------------|---------------------|------------------------|-------------------------|
+|----|-----------------------|---------------------|------------------------|-------------------------|
 |Klasės 1000 dydžio failas|	0.0677111|	0.063371|	0.0619805|	0.0575929|
 |Stuktūros 1000 dydžio failas|	0.0407559|	0.0397059|	0.0460455|	0.0466322|
 |Klasės 10000 dydžio failas|	0.434336|	0.378964|	0.439298|	0.364125|
