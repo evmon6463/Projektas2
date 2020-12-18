@@ -2,6 +2,8 @@
 #include "studentas.h"
 #include "studentai.h"
 #include "studentai_faile.h"
+#include <gtest/gtest.h>
+#include <gmock/gmock.h>
 
 using std::cout;
 using std::endl;
@@ -22,6 +24,8 @@ std::ostream& operator<<(std::ostream &output, const Studentas &stu) { //priskyr
 }
 
 int main() {
+
+
     char atsakymas;
     string line;
     cout << "Iveskite kaip norite sukurti duomenis" << endl
@@ -46,7 +50,7 @@ int main() {
                 ofstream output;
                 output.clear();
                 pazymiu_kiekis = sugeneruotu_pazymiu_kiekis();
-                for (int kelintas_failas = 1; kelintas_failas < 5; kelintas_failas++){
+                for (int kelintas_failas = 1; kelintas_failas < 2; kelintas_failas++){
                     studentai = generuojami_studentai_faile(failo_dydis, pazymiu_kiekis, studentas);
                     studentas.rusiavimas_pagal_galutini_pazymi(studentai);
                     failu_uzpildymas(studentai,output, kelintas_failas,"rezultatai");
@@ -78,5 +82,7 @@ int main() {
                 cout << "Klaida" << endl;
         }
     }
+    testing::InitGoogleTest();
+    RUN_ALL_TESTS();
 }
 
