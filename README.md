@@ -97,3 +97,10 @@ Su šiuo operatoriumi yra išvedami duomenys į failus
 # v1.5
 
 Sukurta klasė `Zmogus`  skirta bendrai aprašyti žmogų, o `Studentas` klasė tapo jos išvestine (derived) klase.
+
+# v2.0
+
+Sukurti du `googleTest` testai.
+Pirmasis tikrina ar duotas studento `Vardas` ir `Pavarde` sutampa su pateiktu vardu ir pavarde.
+Antrasis testas tikrina ar `random` funkcija kuria tuos pačius pažymius ar jie skiriasi.
+Taip pat sukurtas `doxygen` failas, kuriame yra struktūrizuota informacija apie projektą.
